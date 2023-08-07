@@ -5,6 +5,7 @@ interface Car {
   isNew?: boolean;
   name?: string;
 
+  // Конструкиця ниже используется когда мы не знаем сколько еще полей будет и какого типа они будут(unknown)
   [key: string]: unknown;
 }
 
