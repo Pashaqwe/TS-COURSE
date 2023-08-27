@@ -18,11 +18,11 @@ const user1: User = {
 };
 
 /* Ниже для примера мы расширяем interface объекта window */
-interface Window {
-  isAuth?: boolean;
-}
+// interface Window {
+//   isAuth?: boolean;
+// }
 
-window.isAuth = true;
+// window.isAuth = true;
 
 interface Persone {
   readonly firstName: string;
@@ -49,7 +49,7 @@ interface Developer extends Employee {
   code?: (arg: string) => void;
 }
 
-const employee1: Employee = {
+export const employee1: Employee = {
   email: "zxc@mail.ru",
   login: "zxc",
   password: "123456",
