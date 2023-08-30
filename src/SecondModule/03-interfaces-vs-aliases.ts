@@ -8,4 +8,4 @@ type newWindow = Window & { a: "string" }; */
 interface Window {
   a: "string";
 } */
-// 2. Если мы пишем типы для classe, то мы используем interface
+// 2. Если мы пишем типы для classes, то мы используем interface
