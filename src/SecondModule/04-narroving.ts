@@ -27,7 +27,7 @@ function example2(strs: string | string[] | null) {
   }
 }
 
-function example3(x: number[] | Date) {
+export function example3(x: number[] | Date) {
   if (x instanceof Date) {
     x.getMonth();
   } else {
