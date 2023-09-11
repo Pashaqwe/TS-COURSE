@@ -20,4 +20,4 @@ function printName2(persone?: Persone) {
   console.log(persone!.name);
 }
 
-/* Использованеи этого символа не приветствуется */
+/* Использованеи этого символа не приветствуется  */
