@@ -19,7 +19,7 @@ function crash(): never {
 }
 
 // Пример, когда мы не знаем сколько параметров передается в функцию
-function average(...nums: number[]) {
+export function average(...nums: number[]) {
   const sum = nums.reduce((current, total) => current + total, 0);
 
   return sum / nums.length;
