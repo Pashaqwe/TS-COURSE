@@ -1,4 +1,4 @@
-/* U extends keyof T - запись означает сокращение попустимых значений до ключей объекта T */
+/* U extends keyof T - запись означает сокращение допустимых значений до ключей объекта T */
 
 export function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
   return obj[key];
